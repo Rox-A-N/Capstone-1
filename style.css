@@ -1,0 +1,68 @@
+html {
+    background-color: #f0eefb;
+}
+
+.container {
+    justify-content: space-evenly;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #0a0f0d, #2a1e5c, #ee4266);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
+pb-2 {
+    padding-bottom: 0.5rem!important;
+}
+
+#profile {
+    border-radius: 50%;
+}
+
+.custom-img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.icons {
+    color: white;
+    text-decoration: none;
+}
+
+#github {
+    color: #6c757d;
+    
+}
+#github.icons:hover {
+    color: white;
+}
+
+.card-group {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.email {
+    color: white,
+    
+}
+
+li a {
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    img {
+        width: 100%
+    }
+    
+}
